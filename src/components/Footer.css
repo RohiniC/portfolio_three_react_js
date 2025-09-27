@@ -1,0 +1,123 @@
+.site-footer {
+  margin-top: 4rem;
+  background: var(--card-background);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-color);
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-family: 'Merriweather', Georgia, serif;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+}
+
+.brand-text strong {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.1rem;
+}
+
+.brand-text span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: var(--text-color);
+  text-decoration: none;
+  opacity: 0.9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+.footer-contacts {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-btn {
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: var(--background-color);
+  transition: all 0.3s ease;
+}
+
+.icon-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.5rem 2rem;
+  text-align: center;
+  opacity: 0.85;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer-bottom .dot {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    justify-content: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .footer-bottom {
+    padding: 1rem;
+  }
+}
+
+

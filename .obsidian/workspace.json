@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "c9f450a8b8592f5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "65094ea3ad3f8f48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd1c56929d68e675",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "logo512.png"
+              },
+              "icon": "lucide-image",
+              "title": "logo512"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a929bd186936158b",
+    "type": "split",
+    "children": [
+      {
+        "id": "f27a47db81aa4784",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2451634ad3d10384",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "15d22aafdbf1bd4d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "88e919c82a55b39b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ab8c985a6465c14b",
+    "type": "split",
+    "children": [
+      {
+        "id": "375a8ab9e7a9c4d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a921dbbda8de16c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "logo512.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for logo512"
+            }
+          },
+          {
+            "id": "03c32e770c76bbd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "logo512.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from logo512"
+            }
+          },
+          {
+            "id": "8118fca8097c87c7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f9da0ec6f418414c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "logo512.png",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of logo512"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2451634ad3d10384",
+  "lastOpenFiles": [
+    "README.md",
+    "build/static/js/main.09a567e6.js.map",
+    "build/static/js/main.09a567e6.js",
+    "build/static/js/main.09a567e6.js.LICENSE.txt",
+    "build/static/css/main.72ff0dd9.css.map",
+    "build/static/css/main.72ff0dd9.css",
+    "build/static/js/main.5e5b1032.js.map",
+    "build/static/js/453.bdf044b7.chunk.js",
+    "build/static/js/main.5e5b1032.js.LICENSE.txt",
+    "build/static/js/main.5e5b1032.js",
+    "build/static/js/453.bdf044b7.chunk.js.map",
+    "node_modules/three/README.md",
+    "node_modules/three/examples/jsm/libs/draco/README.md",
+    "node_modules/three/examples/jsm/libs/basis/README.md",
+    "node_modules/three/examples/fonts/ttf/README.md",
+    "node_modules/three/examples/fonts/README.md",
+    "node_modules/three-stdlib/README.md",
+    "node_modules/three/examples/jsm/nodes/materialx/DISCLAIMER.md",
+    "node_modules/glsl-noise/README.md",
+    "node_modules/camera-controls/readme.md",
+    "node_modules/three-mesh-bvh/README.md",
+    "node_modules/lodash.clamp/README.md",
+    "node_modules/maath/CHANGELOG.md",
+    "node_modules/detect-gpu/README.md",
+    "node_modules/troika-three-text/README.md",
+    "node_modules/troika-three-text/CHANGELOG.md",
+    "node_modules/react-merge-refs/README.md",
+    "node_modules/react-merge-refs/CHANGELOG.md",
+    "node_modules/react-composer/README.md",
+    "node_modules/meshline/README.md",
+    "node_modules/lodash.pick/README.md",
+    "node_modules/lodash.omit/README.md",
+    "node_modules/suspend-react/hero.svg",
+    "node_modules/suspend-react/readme.md",
+    "node_modules/utility-types/SUPPORT.md",
+    "node_modules/utility-types/SECURITY.md",
+    "node_modules/utility-types/README.md",
+    "logo192.png"
+  ]
+}
