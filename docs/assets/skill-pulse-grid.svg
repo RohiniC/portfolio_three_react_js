@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
+  <title id="title">Skill Pulse Grid Concept</title>
+  <desc id="desc">Reactive grid of illuminated tiles with vertical signal beams.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040814" />
+      <stop offset="55%" stop-color="#0a1531" />
+      <stop offset="100%" stop-color="#040814" />
+    </linearGradient>
+    <linearGradient id="tile" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1f4a" />
+      <stop offset="100%" stop-color="#122a5e" />
+    </linearGradient>
+    <radialGradient id="pulse" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#70f0ff" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#70f0ff" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="beam" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#80faff" stop-opacity="0" />
+      <stop offset="35%" stop-color="#80faff" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#b79bff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="720" fill="url(#bg)" />
+  <g transform="translate(160,120)">
+    <g stroke="#0f2a60" stroke-width="3" stroke-linejoin="round">
+      <!-- Base tiles -->
+      <g fill="url(#tile)">
+        <!-- 6 columns x 4 rows -->
+        <rect x="0" y="0" width="180" height="140" rx="18" />
+        <rect x="220" y="0" width="180" height="140" rx="18" />
+        <rect x="440" y="0" width="180" height="140" rx="18" />
+        <rect x="660" y="0" width="180" height="140" rx="18" />
+        <rect x="880" y="0" width="180" height="140" rx="18" />
+        <rect x="1100" y="0" width="180" height="140" rx="18" />
+
+        <rect x="0" y="180" width="180" height="140" rx="18" />
+        <rect x="220" y="180" width="180" height="140" rx="18" />
+        <rect x="440" y="180" width="180" height="140" rx="18" />
+        <rect x="660" y="180" width="180" height="140" rx="18" />
+        <rect x="880" y="180" width="180" height="140" rx="18" />
+        <rect x="1100" y="180" width="180" height="140" rx="18" />
+
+        <rect x="0" y="360" width="180" height="140" rx="18" />
+        <rect x="220" y="360" width="180" height="140" rx="18" />
+        <rect x="440" y="360" width="180" height="140" rx="18" />
+        <rect x="660" y="360" width="180" height="140" rx="18" />
+        <rect x="880" y="360" width="180" height="140" rx="18" />
+        <rect x="1100" y="360" width="180" height="140" rx="18" />
+
+        <rect x="0" y="540" width="180" height="140" rx="18" />
+        <rect x="220" y="540" width="180" height="140" rx="18" />
+        <rect x="440" y="540" width="180" height="140" rx="18" />
+        <rect x="660" y="540" width="180" height="140" rx="18" />
+        <rect x="880" y="540" width="180" height="140" rx="18" />
+        <rect x="1100" y="540" width="180" height="140" rx="18" />
+      </g>
+    </g>
+    <!-- Active cluster -->
+    <g opacity="0.95">
+      <circle cx="750" cy="250" r="160" fill="url(#pulse)" />
+      <rect x="720" y="-40" width="60" height="280" fill="url(#beam)" />
+      <rect x="865" y="120" width="60" height="320" fill="url(#beam)" />
+      <rect x="640" y="200" width="60" height="280" fill="url(#beam)" />
+    </g>
+    <!-- Highlighted tiles -->
+    <g>
+      <rect x="660" y="180" width="180" height="140" rx="18" fill="#10326d" stroke="#75f7ff" stroke-width="3" />
+      <rect x="880" y="180" width="180" height="140" rx="18" fill="#132a61" stroke="#9c89ff" stroke-width="3" />
+      <rect x="660" y="360" width="180" height="140" rx="18" fill="#132a61" stroke="#75f7ff" stroke-width="3" />
+      <rect x="880" y="360" width="180" height="140" rx="18" fill="#162d66" stroke="#9c89ff" stroke-width="3" />
+    </g>
+    <!-- Icons -->
+    <g font-family="'Inter', Arial, sans-serif" font-size="28" text-anchor="middle" fill="#dff9ff">
+      <text x="750" y="260">JS</text>
+      <text x="970" y="260">AI</text>
+      <text x="750" y="440">UX</text>
+      <text x="970" y="440">Lead</text>
+    </g>
+    <!-- Category labels -->
+    <g font-family="'Inter', Arial, sans-serif" font-size="18" fill="#9fcfff" text-anchor="middle">
+      <text x="750" y="290">Frontend</text>
+      <text x="970" y="290">Applied AI</text>
+      <text x="750" y="470">Systems Thinking</text>
+      <text x="970" y="470">Team Leadership</text>
+    </g>
+  </g>
+  <g opacity="0.5" fill="#80f7ff">
+    <circle cx="280" cy="180" r="4" />
+    <circle cx="460" cy="90" r="3" />
+    <circle cx="980" cy="80" r="4" />
+    <circle cx="1220" cy="160" r="3" />
+    <circle cx="200" cy="580" r="4" />
+    <circle cx="1240" cy="640" r="5" />
+  </g>
+</svg>

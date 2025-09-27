@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { getYearsOfExperience } from '../utils/experience';
-import HeroCanvas from './HeroCanvas';
 import './Home.css';
 
 const HomePage = () => {
@@ -73,67 +72,35 @@ const HomePage = () => {
       <div className="home-container">
         {/* Hero Section */}
         <section ref={heroRef} className="hero-section">
-          <div className="hero-background" aria-hidden="true">
-            <HeroCanvas />
-            <div className="hero-background-overlay" />
+          <header className="hero-header">
+            <h1 className="hero-title">
+              Hi, I'm <span className="hero-name">Rohini Chellapandian</span>
+            </h1>
+            <h2 className="hero-subtitle">Technical Architect &bull; Full‑Stack Engineer &bull; Product Builder</h2>
+            <p className="hero-description">
+              <strong>{yearsOfExperience}+ years</strong> building scalable web products, leading engineering teams, and delivering elegant solutions across <span className="highlight-tech">React</span>, <span className="highlight-tech">Node.js</span> and modern web technologies.
+            </p>
+          </header>
+
+          <div className="hero-actions">
+            <Link to="/projects" className="hero-btn hero-btn-primary">
+              <i className="fas fa-code"></i>
+              View Projects
+            </Link>
+            <Link to="/contact" className="hero-btn hero-btn-secondary">
+              <i className="fas fa-envelope"></i>
+              Get In Touch
+            </Link>
           </div>
 
-          <div className="hero-inner">
-            <div className="hero-badge-row">
-              <span className="hero-badge">
-                <i className="fas fa-bolt"></i>
-                {yearsOfExperience}+ yrs of product impact
-              </span>
-              <span className="hero-badge hero-badge-secondary">
-                <i className="fas fa-star"></i>
-                Immersive &amp; AI-assisted experiences
-              </span>
-            </div>
-
-            <header className="hero-header">
-              <h1 className="hero-title">
-                Hi, I'm <span className="hero-name">Rohini Chellapandian</span>
-              </h1>
-              <h2 className="hero-subtitle">Technical Architect &bull; Full‑Stack Engineer &bull; Product Builder</h2>
-              <p className="hero-description">
-                I architect cloud-native platforms and craft richly interactive interfaces that feel alive. From 3D storytelling in <span className="highlight-tech">Three.js</span> to resilient systems on <span className="highlight-tech">AWS</span>, every build balances polish, performance, and measurable outcomes.
-              </p>
-            </header>
-
-            <div className="hero-pulse-grid">
-              <div className="hero-pulse-card">
-                <i className="fas fa-project-diagram"></i>
-                <div>
-                  <div className="hero-pulse-title">Systems Thinking</div>
-                  <p>Shaping platform blueprints that scale with business ambition.</p>
-                </div>
-              </div>
-              <div className="hero-pulse-card">
-                <i className="fas fa-magic"></i>
-                <div>
-                  <div className="hero-pulse-title">Immersive Product UX</div>
-                  <p>Blending creative coding, motion, and storytelling for modern web apps.</p>
-                </div>
-              </div>
-              <div className="hero-pulse-card">
-                <i className="fas fa-user-friends"></i>
-                <div>
-                  <div className="hero-pulse-title">Team Leadership</div>
-                  <p>Guiding cross-functional teams through zero-to-one and scale-up stages.</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="hero-actions">
-              <Link to="/projects" className="hero-btn hero-btn-primary">
-                <i className="fas fa-code"></i>
-                View Projects
-              </Link>
-              <Link to="/contact" className="hero-btn hero-btn-secondary">
-                <i className="fas fa-envelope"></i>
-                Get In Touch
-              </Link>
-            </div>
+          <div className="floating-icons" aria-hidden="true">
+            <span className="floating-icon floating-icon-react"><i className="fab fa-react"></i></span>
+            <span className="floating-icon floating-icon-js"><i className="fab fa-js-square"></i></span>
+            <span className="floating-icon floating-icon-node"><i className="fab fa-node-js"></i></span>
+            <span className="floating-icon floating-icon-cloud"><i className="fas fa-cloud"></i></span>
+            <span className="floating-icon floating-icon-database"><i className="fas fa-database"></i></span>
+            <span className="floating-icon floating-icon-ai"><i className="fas fa-robot"></i></span>
+            <span className="floating-icon floating-icon-lead"><i className="fas fa-users"></i></span>
           </div>
         </section>
 
